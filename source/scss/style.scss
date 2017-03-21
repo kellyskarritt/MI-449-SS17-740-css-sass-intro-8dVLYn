@@ -1,0 +1,73 @@
+@import "_variables";
+
+h1 {
+  font-size: $font-base-size * 2.25;
+  color: $aqua-primary;
+}
+
+h2 {
+  font-size: $font-base-size * 2;
+  color: $green-primary;
+}
+
+h3 {
+  font-size: $font-base-size * 1.75;
+  color: $yellow-primary;
+}
+
+h4 {
+  font-size: $font-base-size * 1.5;
+  color: $brown-primary;
+}
+
+h5 {
+  font-size: $font-base-size * 1.25;
+  color: lighten($aqua-primary, 20%);
+}
+
+h6 {
+  font-size: $font-base-size;
+  color: lighten($green-primary, 10%);
+}
+
+p {
+  font-size: $font-base-size;
+  color: darken($aqua-primary, 50%);
+
+  a {
+    color: $red-primary;
+  }
+
+  input {
+    color: darken($green-primary, 50%);
+    border-color: $green-primary;
+    background-color: $green-primary;
+    border-radius: $border-base-radius;
+  }
+
+  textarea {
+    border-radius: $border-base-radius;
+  }
+}
+
+figure {
+  img {
+    border-radius: $border-base-radius;
+  }
+
+  figcaption {
+    color: darken($yellow-primary, 30%);
+  }
+}
+
+table {
+  background-color: $aqua-primary;
+
+  thead {
+    color: darken($yellow-primary, 50%);
+  }
+
+  tbody {
+    color: darken($red-primary, 10%);
+  }
+}
