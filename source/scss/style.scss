@@ -3,50 +3,100 @@
 h1 {
   font-size: $font-base-size * 2.25;
   color: $aqua-primary;
+  font-family: $serif-fonts;
 }
 
 h2 {
   font-size: $font-base-size * 2;
   color: $green-primary;
+  font-family: $serif-fonts;
 }
 
 h3 {
   font-size: $font-base-size * 1.75;
   color: $yellow-primary;
+  font-family: $serif-fonts;
 }
 
 h4 {
   font-size: $font-base-size * 1.5;
   color: $brown-primary;
+  font-family: $serif-fonts;
 }
 
 h5 {
   font-size: $font-base-size * 1.25;
   color: lighten($aqua-primary, 20%);
+  font-family: $serif-fonts;
 }
 
 h6 {
   font-size: $font-base-size;
   color: lighten($green-primary, 10%);
+  font-family: $serif-fonts;
 }
 
 p {
   font-size: $font-base-size;
   color: darken($aqua-primary, 50%);
+  font-family: $serif-fonts;
 
   a {
     color: $red-primary;
+    font-family: $serif-fonts;
+    font-size: $font-base-size;
   }
 
-  input {
+  input[type="password"] {
+    font-size: $font-base-size;
     color: darken($green-primary, 50%);
     border-color: $green-primary;
     background-color: $green-primary;
     border-radius: $border-base-radius;
+    font-family: $serif-fonts;
+  }
+
+  input[type="text"] {
+    font-size: $font-base-size;
+    color: darken($green-primary, 50%);
+    border-color: $green-primary;
+    background-color: $green-primary;
+    border-radius: $border-base-radius;
+    font-family: $serif-fonts;
+  }
+
+  input[type="button"] {
+    font-size: $font-base-size;
+    color: darken($aqua-primary, 50%);
+    border-color: $aqua-primary;
+    background-color: $aqua-primary;
+    border-radius: $border-base-radius;
+    font-family: $serif-fonts;
+  }
+
+  input[type="checkbox"] {
+    font-size: $font-base-size;
+    color: darken($green-primary, 50%);
+    border-color: $green-primary;
+    background-color: $green-primary;
+    border-radius: $border-base-radius;
+    font-family: $serif-fonts;
+  }
+
+  input[type="radio"] {
+    font-size: $font-base-size;
+    color: darken($green-primary, 50%);
+    border-color: $green-primary;
+    background-color: $green-primary;
+    border-radius: $border-base-radius;
+    font-family: $serif-fonts;
   }
 
   textarea {
+    font-size: $font-base-size;
     border-radius: $border-base-radius;
+    font-family: $serif-fonts;
+    background-color: $yellow-primary;
   }
 }
 
@@ -57,6 +107,8 @@ figure {
 
   figcaption {
     color: darken($yellow-primary, 30%);
+    font-size: $font-base-size;
+    font-family: $serif-fonts;
   }
 }
 
@@ -65,9 +117,13 @@ table {
 
   thead {
     color: darken($yellow-primary, 50%);
+    font-family: $serif-fonts;
+    font-size: $font-base-size;
   }
 
   tbody {
     color: darken($red-primary, 10%);
+    font-family: $serif-fonts;
+    font-size: $font-base-size;
   }
 }
